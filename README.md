@@ -1,2 +1,2 @@
 # Plataforma ONG
-Projeto exemplo para atividades de front-end.
+Adicionando estrutura HTML inicial do projeto da plataforma ONG
