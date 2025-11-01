@@ -1,2 +1,11 @@
 # Plataforma ONG
-Adicionando estrutura HTML inicial do projeto da plataforma ONG
+
+Projeto exemplo desenvolvido para atividades de front-end.
+
+## Estrutura
+- **index.html** – Página inicial  
+- **cadastro.html** – Formulário de cadastro de voluntários  
+- **projetos.html** – Página com listagem de projetos  
+
+## Autor
+Eduardo Cintra
