@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cadastro de Voluntário — Nome ONG</title>
+  <meta name="description" content="Formulário de cadastro de voluntários e apoiadores.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="images/logo.png" alt="Logo Nome ONG" class="logo" /></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html" aria-current="page">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Cadastro de Voluntário / Doador</h1>
+    <form id="form-cadastro">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome completo *</label>
+        <input id="nome" name="nome" type="text" required />
+        <label for="email">E-mail *</label>
+        <input id="email" name="email" type="email" required />
+        <label for="cpf">CPF *</label>
+        <input id="cpf" name="cpf" type="text" required placeholder="000.000.000-00" />
+        <label for="telefone">Telefone</label>
+        <input id="telefone" name="telefone" type="tel" placeholder="(00) 9 0000-0000" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+        <label for="cep">CEP *</label>
+        <input id="cep" name="cep" type="text" required placeholder="00000-000" />
+        <label for="cidade">Cidade</label>
+        <input id="cidade" name="cidade" type="text" />
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+          <option value="">Selecione</option>
+          <option>SP</option>
+          <option>RJ</option>
+        </select>
+      </fieldset>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> Nome ONG</p>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
